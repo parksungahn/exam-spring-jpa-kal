@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 
-@Repository
+//@Repository
 public class CustomerRepositoryImpl implements CustomerRepository {
 
     private final CustomerRepositoryJpa customerRepositoryJpa;
