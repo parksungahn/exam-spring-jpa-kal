@@ -1,8 +1,6 @@
 package com.example.examspringjpa.customer.infrastructure;
 
-import com.example.examspringjpa.customer.domain.CustomerRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.stereotype.Repository;
+import com.example.examspringjpa.customer.domain.CustomerRepository_4;
 
 import java.util.List;
 import java.util.Optional;
@@ -11,11 +9,11 @@ import java.util.stream.StreamSupport;
 
 
 //@Repository
-public class CustomerRepositoryImpl implements CustomerRepository {
+public class CustomerRepositoryImpl_5 implements CustomerRepository_4 {
 
-    private final CustomerRepositoryJpa customerRepositoryJpa;
+    private final CustomerRepositoryJpa_6 customerRepositoryJpa;
 
-    public CustomerRepositoryImpl(final CustomerRepositoryJpa customerRepositoryJpa)
+    public CustomerRepositoryImpl_5(final CustomerRepositoryJpa_6 customerRepositoryJpa)
     {
         this.customerRepositoryJpa = customerRepositoryJpa;
     }

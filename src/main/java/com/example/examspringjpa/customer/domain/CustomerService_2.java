@@ -4,7 +4,7 @@ import com.example.examspringjpa.customer.infrastructure.CustomerEntity;
 
 import java.util.List;
 
-public interface CustomerService {
+public interface CustomerService_2 {
 
     CustomerEntity createCustomer(CustomerEntity customer);
 //    CustomerEntity updateCustomer(CustomerEntity customer);

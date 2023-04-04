@@ -2,17 +2,16 @@ package com.example.examspringjpa.customer.domain;
 
 import com.example.examspringjpa.customer.infrastructure.CustomerEntity;
 import jakarta.transaction.Transactional;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class CustomerServiceImpl implements CustomerService{
+public class CustomerServiceImpl_3 implements CustomerService_2 {
 
-    private final CustomerRepository customerRepository;
+    private final CustomerRepository_4 customerRepository;
 
-    public CustomerServiceImpl(final CustomerRepository customerRepository)
+    public CustomerServiceImpl_3(final CustomerRepository_4 customerRepository)
     {
         this.customerRepository = customerRepository;
     }

@@ -5,7 +5,7 @@ import com.example.examspringjpa.customer.infrastructure.CustomerEntity;
 import java.util.List;
 import java.util.Optional;
 
-public interface CustomerRepository {
+public interface CustomerRepository_4 {
     CustomerEntity save(CustomerEntity customer);
 
     List<CustomerEntity> getAllCustomer();

@@ -1,6 +1,6 @@
 package com.example.examspringjpa.customer.controller;
 
-import com.example.examspringjpa.customer.domain.CustomerService;
+import com.example.examspringjpa.customer.domain.CustomerService_2;
 import com.example.examspringjpa.customer.infrastructure.CustomerEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -8,12 +8,12 @@ import java.util.List;
 
 @RestController
 //@RequestMapping("/api/v1/customer")
-public class CustomerController {
+public class CustomerController_1 {
 
-    private final CustomerService customerService;
+    private final CustomerService_2 customerService;
 
 
-    public CustomerController(final CustomerService customerService)
+    public CustomerController_1(final CustomerService_2 customerService)
     {
         this.customerService = customerService;
     }
