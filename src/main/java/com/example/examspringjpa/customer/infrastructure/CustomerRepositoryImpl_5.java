@@ -13,10 +13,15 @@ public class CustomerRepositoryImpl_5 implements CustomerRepository_4 {
 
     private final CustomerRepositoryJpa_6 customerRepositoryJpa;
 
+    //---############## 생성자
     public CustomerRepositoryImpl_5(final CustomerRepositoryJpa_6 customerRepositoryJpa)
     {
         this.customerRepositoryJpa = customerRepositoryJpa;
     }
+
+
+
+
 
     @Override
     public CustomerEntity save(CustomerEntity customerEntity)
